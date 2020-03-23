@@ -5,7 +5,8 @@ const confirmBtn = document.querySelector('#btn-confirm');
 const expensesList = document.querySelector('#expenses-list');
 const totalExpensesOutput = document.querySelector('#total-expenses');
 const alertCtrl = document.querySelector('ion-alert-controller');
-
+// Use IntelliJ to use open in Browser buttons in top right corner
+// Or open the index.html streight in Windows Explorer
 let totalExpenses = 0;
 const clear = () => {
     reasonInput.value = '';
